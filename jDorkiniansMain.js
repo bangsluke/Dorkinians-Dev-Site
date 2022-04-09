@@ -814,7 +814,7 @@ const sideMenuHTML = `
                 <a id="side-menu-close-button" href="javascript:void(0)" onclick="closeNav()">×</a>
 
                 <!-- Add the Dorkinians logo. -->
-                <img class="logo center" id="side-menu-dorkinians-logo" src="/pages/Dorkinians-Page/images/Dorkinians Logo - Header and Side Menu.webp"
+                <img class="logo center" id="side-menu-dorkinians-logo" src="/images/Dorkinians Logo - Header and Side Menu.webp"
                 alt="Dorkinians Logo" width="80" height="80">
 
             </div>
@@ -868,7 +868,7 @@ const sideMenuHTML = `
 
                         <!-- Add the change theme item. -->
                         <div class="side-menu-icon-container">
-                            <img src="/pages/Dorkinians-Page/images/Theme Change Icon.webp" class="side-menu-icon" id="side-menu-theme-change-icon" alt="Theme Change Icon" onclick="changeSiteTheme()">
+                            <img src="/images/Theme Change Icon.webp" class="side-menu-icon" id="side-menu-theme-change-icon" alt="Theme Change Icon" onclick="changeSiteTheme()">
                         </div>
                         <div class="side-menu-text-container">
                             <h4 id="side-menu-actions-change-theme-text" onclick="changeSiteTheme()">Change to Dark Theme</h4>
@@ -876,7 +876,7 @@ const sideMenuHTML = `
 
                         <!-- Add the text size change action item. -->
                         <div class="side-menu-icon-container">
-                            <img src="/pages/Dorkinians-Page/images/Text Size Icon.webp" class="side-menu-icon" id="side-menu-text-size-icon" alt="Text Size Icon">
+                            <img src="/images/Text Size Icon.webp" class="side-menu-icon" id="side-menu-text-size-icon" alt="Text Size Icon">
                         </div>
                         <div class="side-menu-text-container side-menu-action-button-container">
                             <h4>Change Text Size</h4>
@@ -890,7 +890,7 @@ const sideMenuHTML = `
 
                         <!-- Add the full reset item. -->
                         <div class="side-menu-icon-container">
-                            <img src="/pages/Dorkinians-Page/images/Reset Page Icon.webp" class="side-menu-icon" id="side-menu-reset-page-icon" alt="Reset Page Icon" onclick="resetActionVariables()">
+                            <img src="/images/Reset Page Icon.webp" class="side-menu-icon" id="side-menu-reset-page-icon" alt="Reset Page Icon" onclick="resetActionVariables()">
                         </div>
                         <div class="side-menu-text-container">
                             <h4 id="side-menu-actions-change-height-text" onclick="resetActionVariables()">Reset Page Settings</h4>
@@ -910,7 +910,7 @@ const sideMenuHTML = `
                         <!-- Add a link to the Dorkinians homepage. -->
                         <div class="side-menu-icon-container">
                             <a href="https://www.dorkiniansfc.co.uk/">
-                                <img src="/pages/Dorkinians-Page/images/Dorkinians Logo - Header and Side Menu.webp" class="side-menu-icon" alt="Dorkinians Logo Icon" height="25px">
+                                <img src="/images/Dorkinians Logo - Header and Side Menu.webp" class="side-menu-icon" alt="Dorkinians Logo Icon" height="25px">
                             </a>
                         </div>
                         <div class="side-menu-text-container">
@@ -922,7 +922,7 @@ const sideMenuHTML = `
                         <!-- Add a link to the FA homepage. -->
                         <div class="side-menu-icon-container">
                             <a href="https://fulltime.thefa.com/index.html?league=9031785&selectedSeason=697858796&selectedDivision=921408008&selectedCompetition=0&selectedFixtureGroupKey=1_513480600">
-                                <img src="/pages/Dorkinians-Page/images/The FA Logo Icon.webp" class="side-menu-icon" alt="The FA Logo Icon" height="25px">
+                                <img src="/images/The FA Logo Icon.webp" class="side-menu-icon" alt="The FA Logo Icon" height="25px">
                             </a>
                         </div>
                         <div class="side-menu-text-container">
@@ -983,10 +983,7 @@ class sideMenu extends HTMLElement {
     // Apply external styles to the shadow DOM
     const styleSheet = document.createElement("link");
     styleSheet.setAttribute("rel", "stylesheet");
-    styleSheet.setAttribute(
-      "href",
-      "/pages/Dorkinians-Page/DorkiniansMain.min.css"
-    );
+    styleSheet.setAttribute("href", "/DorkiniansMain.min.css");
     shadowRoot.appendChild(styleSheet);
 
     // Attach the created elements to the shadow DOM
@@ -4692,7 +4689,7 @@ function populateDropdownList(
       document.getElementById(dropdownButtonID).value = playerNameArray[i]; // Update the button element to have the property value with the players name.
       document.getElementById(dropdownButtonID).innerHTML =
         playerNameArray[i] +
-        "<img src='/pages/Dorkinians-Page/images/Down Arrow Icon.webp' alt='Down Arrow Icon' class='selection-dropdown-arrow-icon' height='25px' width='25px'>"; // Update the button text to show the player name.
+        "<img src='/images/Down Arrow Icon.webp' alt='Down Arrow Icon' class='selection-dropdown-arrow-icon' height='25px' width='25px'>"; // Update the button text to show the player name.
       // alert("Hello from " + dropdownID + ", passed playerName: " + playerNameArray[i]);
       closeDropdownList(dropdownID, tabName); // Close the dropdown list.
       // Call the next function on the basis of what tab the dropdown is from.
