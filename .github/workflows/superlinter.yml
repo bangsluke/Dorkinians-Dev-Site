@@ -63,19 +63,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
           # What to Validate
+          # Only have false for ones to exclude, don't have any true.
 
           # Flag to enable or disable the linting process of the CSS language.
-          VALIDATE_CSS: true
+          # VALIDATE_CSS: true
           # Flag to enable or disable the linting process of the GitHub Actions.
           VALIDATE_GITHUB_ACTIONS: false
           # Flag to enable or disable the linting process of the HTML language.
-          VALIDATE_HTML: true
+          # VALIDATE_HTML: true
           # Flag to enable or disable the linting process of the JavaScript language. (Utilizing: eslint)
-          VALIDATE_JAVASCRIPT_ES: true
+          # VALIDATE_JAVASCRIPT_ES: true
           # Flag to enable or disable the linting process of the JSON language.
-          VALIDATE_JSON: true
+          # VALIDATE_JSON: true
           # Flag to enable or disable the linting process for jsx files (Utilizing: eslint)
-          VALIDATE_JSX: true
+          # VALIDATE_JSX: true
           # Flag to enable or disable the linting process of the Markdown language.
           VALIDATE_MARKDOWN: false
           # Flag to enable or disable the linting process of the YAML language.
