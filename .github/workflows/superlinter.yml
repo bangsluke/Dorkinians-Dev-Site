@@ -83,7 +83,7 @@ jobs:
           # Flag to enable or disable the linting process of the HTML language.
           # VALIDATE_HTML: true
           # Flag to enable or disable the linting process of the JavaScript language. (Utilizing: eslint)
-          # VALIDATE_JAVASCRIPT_ES: true
+          VALIDATE_JAVASCRIPT_ES: false
           # Flag to enable or disable the linting process of the JSON language.
           # VALIDATE_JSON: true
           # Flag to enable or disable the linting process for jsx files (Utilizing: eslint)
