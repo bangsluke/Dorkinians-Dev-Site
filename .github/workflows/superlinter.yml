@@ -62,9 +62,20 @@ jobs:
           # Don't need to generate a token.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+          # What to include/exclude.
+          # Lint only src folder: FILTER_REGEX_INCLUDE: .*src/.*
+          # FILTER_REGEX_INCLUDE: .*src/.*
+          # Do not lint files inside test folder: FILTER_REGEX_EXCLUDE: .*test/.*
+          FILTER_REGEX_EXCLUDE: .*archive/.*
+          # Do not lint JavaScript files inside test folder: FILTER_REGEX_EXCLUDE: .*test/.*.js
+          # FILTER_REGEX_EXCLUDE: .*test/.*.js
+
+          # Linter Rules
+          # Directory for all linter configuration rules. Defaults to ".github/linters".
+          # LINTER_RULES_PATH: .github/linters
+
           # What to Validate
           # Only have false for ones to exclude, don't have any true.
-
           # Flag to enable or disable the linting process of the CSS language.
           VALIDATE_CSS: false
           # Flag to enable or disable the linting process of the GitHub Actions.
