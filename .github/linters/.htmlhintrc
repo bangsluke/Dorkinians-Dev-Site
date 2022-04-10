@@ -1,6 +1,7 @@
 {
+  "comments": "For configuration, see - https://htmlhint.com/docs/user-guide/configuration",
   "id-class-value": false,
-  "id-class-value-comment": "The above avoids the following rule - https://htmlhint.com/docs/user-guide/rules/id-class-value.",
+  "id-class-value-comment": "The above avoids the following rule - https://htmlhint.com/docs/user-guide/rules/id-class-value",
   "spec-char-escape": false,
-  "spec-char-escape-comment": "The above avoids the following rule - https://htmlhint.com/docs/user-guide/rules/spec-char-escape."
+  "spec-char-escape-comment": "The above avoids the following rule - https://htmlhint.com/docs/user-guide/rules/spec-char-escape"
 }
