@@ -20,7 +20,7 @@ name: Lint Code Base
 on:
   push:
     branches-ignore: [master, main]
-    # Remove the line above to run when pushing to master
+    # Remove the line above to run when pushing to main
   pull_request:
     branches: [master, main]
 
@@ -66,7 +66,7 @@ jobs:
           # Only have false for ones to exclude, don't have any true.
 
           # Flag to enable or disable the linting process of the CSS language.
-          # VALIDATE_CSS: true
+          VALIDATE_CSS: false
           # Flag to enable or disable the linting process of the GitHub Actions.
           VALIDATE_GITHUB_ACTIONS: false
           # Flag to enable or disable the linting process of the HTML language.

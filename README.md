@@ -1,6 +1,6 @@
 # Dorkinians-Dev-Site
 
-A development site for the Dorkinians Stat Website.
+A development site for the Dorkinians Stat Site.
 
 [![GitHub Super-Linter](https://github.com/bangsluke/Dorkinians-Dev-Site/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c401143c-a8f6-43e7-a788-64671b9972ef/deploy-status)](https://app.netlify.com/sites/dorkinians-dev-site/deploys)
