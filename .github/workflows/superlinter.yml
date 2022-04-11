@@ -1,94 +1,94 @@
----
-#################################
-#################################
-## Super Linter GitHub Actions ##
-#################################
-#################################
-# A Linter Workflow
-# https://www.youtube.com/watch?v=mFFXuXjVgkU&ab_channel=DevOpsJourney
-# https://github.com/devopsjourney1/mygitactions
-name: Lint Code Base
+# ---
+# #################################
+# #################################
+# ## Super Linter GitHub Actions ##
+# #################################
+# #################################
+# # A Linter Workflow
+# # https://www.youtube.com/watch?v=mFFXuXjVgkU&ab_channel=DevOpsJourney
+# # https://github.com/devopsjourney1/mygitactions
+# name: Lint Code Base
 
-#
-# Documentation:
-# https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions
-#
+# #
+# # Documentation:
+# # https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions
+# #
 
-#############################
-# Start the job on all push #
-#############################
-on:
-  push:
-    branches-ignore: [master, main]
-    # Remove the line above to run when pushing to main
-  pull_request:
-    branches: [master, main]
+# #############################
+# # Start the job on all push #
+# #############################
+# on:
+#   push:
+#     branches-ignore: [master, main]
+#     # Remove the line above to run when pushing to main
+#   pull_request:
+#     branches: [master, main]
 
-###############
-# Set the Job #
-###############
-jobs:
-  build:
-    # Name the Job
-    name: Lint Code Base
-    # Set the agent to run on
-    runs-on: ubuntu-latest
+# ###############
+# # Set the Job #
+# ###############
+# jobs:
+#   build:
+#     # Name the Job
+#     name: Lint Code Base
+#     # Set the agent to run on
+#     runs-on: ubuntu-latest
 
-    ##################
-    # Load all steps #
-    ##################
-    steps:
-      ##########################
-      # Checkout the code base #
-      ##########################
-      - name: Checkout code
-        uses: actions/checkout@v2
-        with:
-          # Full git history is needed to get a proper list of changed files within `super-linter`
-          fetch-depth: 0
+#     ##################
+#     # Load all steps #
+#     ##################
+#     steps:
+#       ##########################
+#       # Checkout the code base #
+#       ##########################
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+#         with:
+#           # Full git history is needed to get a proper list of changed files within `super-linter`
+#           fetch-depth: 0
 
-      ################################
-      # Run Linter against code base #
-      ################################
-      - name: Run Super-Linter
-        uses: github/super-linter@v4.9.2
-        env:
-          # If set to true, super-linter will ignore all the files that are ignored by Git.
-          IGNORE_GITIGNORED_FILES: true
-          # Will parse the entire repository and find all files to validate across all types. NOTE: When set to false, only new or edited files will be parsed for validation.
-          # VALIDATE_ALL_CODEBASE: true
-          # The name of the repository default branch.
-          DEFAULT_BRANCH: main
-          # Don't need to generate a token.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       ################################
+#       # Run Linter against code base #
+#       ################################
+#       - name: Run Super-Linter
+#         uses: github/super-linter@v4.9.2
+#         env:
+#           # If set to true, super-linter will ignore all the files that are ignored by Git.
+#           IGNORE_GITIGNORED_FILES: true
+#           # Will parse the entire repository and find all files to validate across all types. NOTE: When set to false, only new or edited files will be parsed for validation.
+#           # VALIDATE_ALL_CODEBASE: true
+#           # The name of the repository default branch.
+#           DEFAULT_BRANCH: main
+#           # Don't need to generate a token.
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          # What to include/exclude.
-          # Lint only src folder: FILTER_REGEX_INCLUDE: .*src/.*
-          # FILTER_REGEX_INCLUDE: .*src/.*
-          # Do not lint files inside test folder: FILTER_REGEX_EXCLUDE: .*test/.*
-          FILTER_REGEX_EXCLUDE: .*archive/.*
-          # Do not lint JavaScript files inside test folder: FILTER_REGEX_EXCLUDE: .*test/.*.js
-          # FILTER_REGEX_EXCLUDE: .*test/.*.js
+#           # What to include/exclude.
+#           # Lint only src folder: FILTER_REGEX_INCLUDE: .*src/.*
+#           # FILTER_REGEX_INCLUDE: .*src/.*
+#           # Do not lint files inside test folder: FILTER_REGEX_EXCLUDE: .*test/.*
+#           FILTER_REGEX_EXCLUDE: .*archive/.*
+#           # Do not lint JavaScript files inside test folder: FILTER_REGEX_EXCLUDE: .*test/.*.js
+#           # FILTER_REGEX_EXCLUDE: .*test/.*.js
 
-          # Linter Rules
-          # Directory for all linter configuration rules. Defaults to ".github/linters".
-          # LINTER_RULES_PATH: .github/linters
+#           # Linter Rules
+#           # Directory for all linter configuration rules. Defaults to ".github/linters".
+#           # LINTER_RULES_PATH: .github/linters
 
-          # What to Validate
-          # Only have false for ones to exclude, don't have any true.
-          # Flag to enable or disable the linting process of the CSS language.
-          VALIDATE_CSS: false
-          # Flag to enable or disable the linting process of the GitHub Actions.
-          VALIDATE_GITHUB_ACTIONS: false
-          # Flag to enable or disable the linting process of the HTML language.
-          # VALIDATE_HTML: true
-          # Flag to enable or disable the linting process of the JavaScript language. (Utilizing: eslint)
-          VALIDATE_JAVASCRIPT_ES: false
-          # Flag to enable or disable the linting process of the JSON language.
-          # VALIDATE_JSON: true
-          # Flag to enable or disable the linting process for jsx files (Utilizing: eslint)
-          # VALIDATE_JSX: true
-          # Flag to enable or disable the linting process of the Markdown language.
-          VALIDATE_MARKDOWN: false
-          # Flag to enable or disable the linting process of the YAML language.
-          VALIDATE_YAML: false
+#           # What to Validate
+#           # Only have false for ones to exclude, don't have any true.
+#           # Flag to enable or disable the linting process of the CSS language.
+#           VALIDATE_CSS: false
+#           # Flag to enable or disable the linting process of the GitHub Actions.
+#           VALIDATE_GITHUB_ACTIONS: false
+#           # Flag to enable or disable the linting process of the HTML language.
+#           # VALIDATE_HTML: true
+#           # Flag to enable or disable the linting process of the JavaScript language. (Utilizing: eslint)
+#           VALIDATE_JAVASCRIPT_ES: false
+#           # Flag to enable or disable the linting process of the JSON language.
+#           # VALIDATE_JSON: true
+#           # Flag to enable or disable the linting process for jsx files (Utilizing: eslint)
+#           # VALIDATE_JSX: true
+#           # Flag to enable or disable the linting process of the Markdown language.
+#           VALIDATE_MARKDOWN: false
+#           # Flag to enable or disable the linting process of the YAML language.
+#           VALIDATE_YAML: false
