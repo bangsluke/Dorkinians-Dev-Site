@@ -33,12 +33,12 @@ console.time(); // Start the console timer.
 // Publically define a number of global constants and variables such as the location of the Google Sheets.
 
 // Ready Global Variable
-var readyComponentsCount = 0;
-const numberReadyComponents = 10;
+let readyComponentsCount = 0;
+const numberReadyComponents = 11;
 // const numberReadyComponents = 16;
 
 // Create an array of phrases to be displayed on the loading page.
-var phrasesArray = [
+const phrasesArray = [
   "Locating any number 8 tops in kit bags...",
   "Calculating the likelihood of Shano scoring an 'unmissable' chance...",
   "Forgetting Oakley's 'assist' in the last game...",

@@ -1,6 +1,33 @@
 # Dorkinians-Dev-Site
-A development site for the Dorkinians Stat Website
 
+A development site for the Dorkinians Stat Site.
+
+[![GitHub Super-Linter](https://github.com/bangsluke/Dorkinians-Dev-Site/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c401143c-a8f6-43e7-a788-64671b9972ef/deploy-status)](https://app.netlify.com/sites/dorkinians-dev-site/deploys)
+
+## Key Repository
+
+- Repository: https://github.com/bangsluke/bangsluke.github.io
+- Read Me: [bangsluke.github.io](https://bangsluke.github.io/)
+
+<!-- Badges -->
+<p align="center">
+  <a href="mailto:bangsluke@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://github.com/bangsluke?tab=followers">
+    <img src="https://img.shields.io/github/followers/bangsluke?label=Followers&logo=GitHub&style=for-the-badge" alt="GitHub badge" />
+  </a>
+  <a href="http://twitter.com/bangsluke">
+    <img src="https://img.shields.io/twitter/follow/bangsluke?label=Twitter&logo=twitter&style=for-the-badge" />
+  </a>
+  <a href="https://www.linkedin.com/in/bangsluke/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://open.spotify.com/user/11169341890">
+    <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white">
+  </a>
+</p>
 
 # Preparing files for main site.
 

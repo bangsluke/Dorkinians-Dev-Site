@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "comments": "For configuration, see - https://stylelint.io/user-guide/configure/",
+    "string": "double",
+    "string-comments": "The above avoids the following rule - https://stylelint.io/user-guide/rules/list/string-quotes/"
+  }
+}
