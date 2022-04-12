@@ -38,18 +38,33 @@ A development site for the Dorkinians FC Stat Site.
 
 Drop me an email at [bangsluke@gmail.com](mailto:bangsluke@gmail.com) or visit my [GitHub account](https://github.com/bangsluke).
 
-# Preparing files for main site.
+## Key Features
+
+- View the upcoming matches and weather on the "Homepage" tab.
+- See the full club and inidividual team stats on the "Club Stats" tab.
+- View individual players stats from the current season or all time stats on the "Player Stats" tab.
+- As per Fantasy Premier League scoring rules, see who made the Team of the Week on the "TOTW" tab.
+- Compare two players all time stats on the "Comparison" tab.
+- See live FA tables and all past results and upcoming fixtures on the "Tables, Results & Fixtures" tab.
+
+## Getting Started
+
+There is no need to install, just visit the [Dev site here](https://dorkinians-dev-site.netlify.app/) or visit the [main site here](http://www.dorkiniansfcstats.co.uk/).
+
+## Author Notes
+
+### Preparing files for main site.
 
 To get the files ready for upload to the main site, do the following actions;
 
 - Go to "index.html" and then run the "Minify" command in VS Code (Shift + Ctrl + M). This will create a file called "index.min.html" with reduced size.
 - Do the same for "DorkiniansMain.css", "jDorkiniansMain.js" and other files.
 
-# Lighthouse Reports
+### Lighthouse Reports
 
 Tested as Mobile for device.
 
-### 18/01/2022
+#### 18/01/2022
 
 Performance - 15
 Accessibility - 74
@@ -63,7 +78,7 @@ Accessibility - 74
 Best Practices - 80
 SEO - 92
 
-## 26/01/2022
+#### 26/01/2022
 
 Performance - 15
 Accessibility - 74
@@ -71,7 +86,7 @@ Best Practices - 73
 SEO - 92
 Progressive Web App - n/a
 
-## 26/01/2022 v2
+#### 26/01/2022 v2
 
 Performance - 38
 Accessibility - 74
@@ -79,7 +94,7 @@ Best Practices - 93
 SEO - 92
 Progressive Web App - n/a
 
-## 04/03/2022
+#### 04/03/2022
 
 Performance - 27
 Accessibility - 59
