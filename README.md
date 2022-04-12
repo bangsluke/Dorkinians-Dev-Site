@@ -1,33 +1,35 @@
 # Dorkinians-Dev-Site
 
-A development site for the Dorkinians Stat Site.
+A development site for the Dorkinians FC Stat Site.
+
+<!-- Project Badges -->
+<p align="center">
+  <a href="https://github.com/marketplace/actions/super-linter">
+    <img src="https://github.com/bangsluke/Dorkinians-Dev-Site/workflows/Lint%20Code%20Base/badge.svg" alt="Linter Status badge">
+  </a>
+  <a href="https://app.netlify.com/sites/dorkinians-dev-site/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/c401143c-a8f6-43e7-a788-64671b9972ef/deploy-status" alt="Netlify Status badge" />
+  </a>
+</p>
 
 [![GitHub Super-Linter](https://github.com/bangsluke/Dorkinians-Dev-Site/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c401143c-a8f6-43e7-a788-64671b9972ef/deploy-status)](https://app.netlify.com/sites/dorkinians-dev-site/deploys)
 
-## Key Repository
+<!-- Built With Badges -->
 
-- Repository: https://github.com/bangsluke/bangsluke.github.io
-- Read Me: [bangsluke.github.io](https://bangsluke.github.io/)
+### Built With
 
-<!-- Badges -->
 <p align="center">
-  <a href="mailto:bangsluke@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-  <a href="https://github.com/bangsluke?tab=followers">
-    <img src="https://img.shields.io/github/followers/bangsluke?label=Followers&logo=GitHub&style=for-the-badge" alt="GitHub badge" />
-  </a>
-  <a href="http://twitter.com/bangsluke">
-    <img src="https://img.shields.io/twitter/follow/bangsluke?label=Twitter&logo=twitter&style=for-the-badge" />
-  </a>
-  <a href="https://www.linkedin.com/in/bangsluke/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="https://open.spotify.com/user/11169341890">
-    <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white">
-  </a>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=whitek">
+  <br>
 </p>
+
+## Author
+
+Drop me an email at [bangsluke@gmail.com](mailto:bangsluke@gmail.com) or visit my [GitHub account](https://github.com/bangsluke).
 
 # Preparing files for main site.
 
