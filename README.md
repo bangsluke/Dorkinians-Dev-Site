@@ -11,9 +11,6 @@ A development site for the Dorkinians FC Stat Site.
   <a href="https://github.com/bangsluke/Dorkinians-Dev-Site" alt="Stable release version badge">
     <img src="https://img.shields.io/badge/version-1.4.0-blue)" />
   </a>
-  <a href="https://github.com/badges/shields/pulse" alt="Commit activity badge">
-    <img src="https://img.shields.io/github/commit-activity/m/badges/shields" />
-  </a>
   <a href="https://github.com/marketplace/actions/super-linter">
     <img src="https://github.com/bangsluke/Dorkinians-Dev-Site/workflows/Lint%20Code%20Base/badge.svg" alt="Linter status badge">
   </a>
