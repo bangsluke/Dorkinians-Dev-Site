@@ -53,7 +53,7 @@ There is no need to install, just visit the [Dev site here](https://dorkinians-d
 
 ## Author Notes
 
-### Preparing files for main site.
+### Preparing files for main site
 
 To get the files ready for upload to the main site, do the following actions;
 
