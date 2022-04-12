@@ -1,19 +1,26 @@
 # Dorkinians-Dev-Site
 
+## About
+
 A development site for the Dorkinians FC Stat Site.
+
+### Status
 
 <!-- Project Badges -->
 <p align="center">
+  <a href="https://github.com/bangsluke/Dorkinians-Dev-Site" alt="Stable release version badge">
+    <img src="https://img.shields.io/badge/version-1.4.0-blue)" />
+  </a>
+  <a href="https://github.com/badges/shields/pulse" alt="Commit activity badge">
+    <img src="https://img.shields.io/github/commit-activity/m/badges/shields" />
+  </a>
   <a href="https://github.com/marketplace/actions/super-linter">
-    <img src="https://github.com/bangsluke/Dorkinians-Dev-Site/workflows/Lint%20Code%20Base/badge.svg" alt="Linter Status badge">
+    <img src="https://github.com/bangsluke/Dorkinians-Dev-Site/workflows/Lint%20Code%20Base/badge.svg" alt="Linter status badge">
   </a>
   <a href="https://app.netlify.com/sites/dorkinians-dev-site/deploys">
-    <img src="https://api.netlify.com/api/v1/badges/c401143c-a8f6-43e7-a788-64671b9972ef/deploy-status" alt="Netlify Status badge" />
+    <img src="https://api.netlify.com/api/v1/badges/c401143c-a8f6-43e7-a788-64671b9972ef/deploy-status" alt="Netlify status badge" />
   </a>
 </p>
-
-[![GitHub Super-Linter](https://github.com/bangsluke/Dorkinians-Dev-Site/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c401143c-a8f6-43e7-a788-64671b9972ef/deploy-status)](https://app.netlify.com/sites/dorkinians-dev-site/deploys)
 
 <!-- Built With Badges -->
 
@@ -27,7 +34,7 @@ A development site for the Dorkinians FC Stat Site.
   <br>
 </p>
 
-## Author
+### Author
 
 Drop me an email at [bangsluke@gmail.com](mailto:bangsluke@gmail.com) or visit my [GitHub account](https://github.com/bangsluke).
 
