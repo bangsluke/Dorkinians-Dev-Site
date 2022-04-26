@@ -2,7 +2,7 @@
 
 ## About
 
-A development site for the Dorkinians FC Stat Site.
+A development site for the Dorkinian FC Stat Site.
 
 ### Status
 
